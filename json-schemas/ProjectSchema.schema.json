@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "isPrivate": {
+      "type": "boolean"
+    },
+    "htmlUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string"
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "$schema": {
+      "type": "string",
+      "const": "../../json-schemas/ProjectSchema.schema.json"
+    }
+  },
+  "required": [
+    "title",
+    "isPrivate",
+    "htmlUrl",
+    "description",
+    "homepage",
+    "topics",
+    "$schema"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "../../json-schemas/DefinedProjectSchema.schema.json",
+    "title": "Portfolio Site"
+}

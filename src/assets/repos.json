@@ -1,0 +1,17 @@
+{
+    "$schema": "../../json-schemas/ProjectsSchema.schema.json",
+    "projects": [
+        {
+            "title": "Portfolio Site",
+            "isPrivate": false,
+            "htmlUrl": "https://github.com/destinyrose2358/destinyrose2358.github.io",
+            "description": "A portfolio site showcasing projects organized by technology.",
+            "homepage": "https://destinyrose2358.github.io/",
+            "topics": [
+                "active",
+                "planning",
+                "portfolio-project"
+            ]
+        }
+    ]
+}
