@@ -21,9 +21,11 @@ export function Skills() {
                 <SkillIcon skillName="Ruby" />
                 <SkillIcon skillName="React" />
                 <SkillIcon skillName="Material UI" />
+                <SkillIcon skillName="CSS" />
                 <SkillIcon skillName="Sass" />
                 <SkillIcon skillName="webpack" />
                 <SkillIcon skillName="jOOQ" />
+                <SkillIcon skillName="Powershell" />
             </Grid>
         </Paper>
     </>
